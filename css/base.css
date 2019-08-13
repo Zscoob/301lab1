@@ -1,23 +1,35 @@
+
+div{
+    box-sizing: border-box;
+}
+
+
 .a{
     height: 100px;
     width: 960px;
     border: 1px solid;
+    float: top;
+    
 
 }
 .b{
     height: 600px;
     width: 200px;
     border: 1px solid;
+    float: left;
+    
 
 }
 .c{
     height: 200px;
     width: 380px;
     border: 1px solid;
-
+    float: left;
 }
 .d{
     height:200px;
     width:380px;
     border: 1px solid;
+    float: left;
+
 }
