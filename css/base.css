@@ -1,11 +1,11 @@
 
-@media all and (min-width: 480px) and (max-width: 960px){
+@media (min-width: 768px){
 
 
 
 
 
-section{
+*{
     box-sizing: border-box;
 }
 
@@ -14,7 +14,9 @@ section{
     height: 100px;
     width: 960px;
     border: 1px solid;
-    position: fixed top;
+    float: left;
+    margin: 0;
+    overflow: hidden;
     
 
 }
@@ -23,30 +25,42 @@ section{
     width: 200px;
     border: 1px solid;
     position: fixed left;
-    
+    margin: 0;
+    float: left;
+    overflow: hidden;
 
 }
 .c{
     height: 200px;
     width: 380px;
     border: 1px solid;
+    margin: 0;
+    float: left;
+    overflow: hidden;
 
 }
-.d{
-    height:200px;
-    width:380px;
+
+.e{
+    height:250px;
+    width:190px;
     border: 1px solid;
+    margin: 0;
+    float: left;
+    overflow: hidden;
     
 
 }
+.i{
+    height: 150px;
+    width: 760px;
+    margin: 0px;
+    float: left;
+    border: 1px solid;
+    overflow: hidden;
 }
-@media all and (min-width: 480px) and (max-width: 767px){
-
-
-
-
-
-    section{
+}
+@media (max-width: 768px){
+    *{
         box-sizing: border-box;
     }
     
@@ -55,7 +69,8 @@ section{
         height: 75px;
         width: 480px;
         border: 1px solid;
-        float: top;
+        float: left;
+        margin: 0;
         
     
     }
@@ -64,6 +79,7 @@ section{
         width: 480px;
         border: 1px solid;
         float: left;
+        margin: 0;
         
     
     }
@@ -72,12 +88,21 @@ section{
         width: 480px;
         border: 1px solid;
         float: left;
+        margin: 0;
     }
-    .d{
-        height:125px;
-        width:480px;
+    .e{
+        height:250px;
+        width:240px;
         border: 1px solid;
         float: left;
+        margin: 0;
     
+    }
+    .i{
+        height: 80px;
+        width: 480px;
+        border: 1px solid;
+        float: left;
+        margin: 0;
     }
     }
