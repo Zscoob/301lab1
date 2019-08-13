@@ -1,5 +1,11 @@
 
-div{
+@media all and (min-width: 480px) and (max-width: 960px){
+
+
+
+
+
+section{
     box-sizing: border-box;
 }
 
@@ -32,4 +38,5 @@ div{
     border: 1px solid;
     float: left;
 
+}
 }
